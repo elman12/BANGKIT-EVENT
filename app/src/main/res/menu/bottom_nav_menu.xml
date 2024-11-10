@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_upcoming_event"
+        android:icon="@drawable/baseline_calendar_today_24"
+        android:title="@string/title_upcoming_event" />
+
+    <item
+        android:id="@+id/navigation_finished_event"
+        android:icon="@drawable/ic_event_available_24dp"
+        android:title="@string/title_finished_event" />
+
+    <item
+        android:id="@+id/navigation_favorite_event"
+        android:icon="@drawable/ic_favorite"
+        android:title="@string/title_favorite_event" />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/title_settings" />
+</menu>

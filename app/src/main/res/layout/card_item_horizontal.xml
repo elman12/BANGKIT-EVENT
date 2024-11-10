@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="16dp"
+    android:checkable="true"
+    android:clickable="true"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="205dp"
+        android:layout_margin="8dp"
+        android:orientation="vertical"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:id="@+id/imageEvent"
+            android:layout_width="136dp"
+            android:layout_height="135dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/image_event" />
+
+        <TextView
+            android:id="@+id/titleEvent"
+            android:layout_width="296dp"
+            android:layout_height="71dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/title_upcoming_event"
+            android:ellipsize="end"
+            android:fontFamily="@font/poppins"
+            android:maxLines="3"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck"
+            tools:text="Sun Event Title Long Example" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

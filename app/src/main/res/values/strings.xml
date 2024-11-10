@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Dicoding Event</string>
+    <string name="title_home">Event</string>
+    <string name="title_upcoming_event">Upcoming</string>
+    <string name="title_finished_event">Finished</string>
+    <string name="title_dicodingEvent">Dicoding</string>
+    <string name="title_recommendation_event">Recommendation event for you!</string>
+    <string name="search_event">Cari Event</string>
+    <string name="image_event">Gambar Acara</string>
+    <string name="title_detail">Detail Event</string>
+    <string name="go_to_event">Registerasi</string>
+    <string name="event_time">Waktu: %1$s</string>
+    <string name="quota_remaining">Sisa Kuota: %1$d</string>
+    <string name="refresh">Refresh</string>
+    <string name="title_favorite_event">Favorite</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_dark_mode">Dark Mode"</string>
+    <string name="love_button">Mark As Favorite</string>
+    <string name="favorite_event_description">Your list Favorite Event</string>
+</resources>
